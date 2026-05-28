@@ -3,7 +3,7 @@
 - Genera mas de un numero aleatorio con la cantidad de digitos solicitada.
 - Validaciones basicas en formularios
 ## Tecnologías utilizadas
-- **Frontend:** JavaScript, HTML, CSS
+- **Frontend:** React.js, JavaScript, HTML, CSS
 ## Arquitecturas
 - Monolitica
 > Vista 1 de la pagina <br>

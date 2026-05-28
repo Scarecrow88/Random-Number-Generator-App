@@ -1,9 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .databox p {
     margin-bottom: 8px;
 }
 .resultpanel {
     height: 120px;
-    background-color: #590d22;
+    background-color: var(--fifth-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,10 +24,10 @@
     width: 10px;
 }
 .resultpanel::-webkit-scrollbar-track {
-    background-color: #ff4d6d;
+    background-color: var(--scrollbar-track-color);
     border-radius: 5px;
 }
 .resultpanel::-webkit-scrollbar-thumb {
-    background-color: #a4133c;
+    background-color: var(--scrollbar-thumb-color);
     border-radius: 5px;
 }

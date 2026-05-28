@@ -12,15 +12,15 @@ main {
 .databox {
     width: 400px;
     height: max-content;
-    background-color: #800f2f;
+    background-color: var(--second-color);
     padding: 40px;
     margin: 30px auto;
     margin-top: 20px;
     font-family: 'Segoe UI Light';
     text-align: center;
-    color: #ff4d6d;
+    color: var(--first-color);
     border-radius: 20px;
-    box-shadow: 3px 3px 18px black;
+    box-shadow: 3px 3px 18px var(--color-shadow);
 }
 .textfield {
     width: 100%;
@@ -31,30 +31,30 @@ main {
     padding: 10px;
     font-family: 'Segoe UI Light';
     font-size: 16px;
-    color: #ff4d6d;
+    color: var(--first-color);
     border: none;
     border-bottom: 1px solid;
-    border-color: #c9184a;
+    border-color: var(--fourth-color);
     outline: none;
 }
 .textfield::placeholder {
-    color: #590d22;
+    color: var(--fifth-color);
     font-weight: bolder;
 }
 .formbutton {
     width: 100%;
     height: 40px;
-    background-color: #ff4d6d;
+    background-color: var(--first-color);
     font-family: 'Segoe UI Light';
     font-size: 16px;
-    color: #590d22;
+    color: var(--fifth-color);
     border: none;
     border-radius: 10px;
 }
 .formbutton:hover {
-    background-color: #590d22;
+    background-color: var(--fifth-color);
     transition: 0.3s;
-    color: #ff4d6d;
+    color: var(--first-color);
     cursor: pointer;
 }
 @media screen and (max-width: 768px) {
@@ -67,7 +67,6 @@ main {
         margin: 10px auto;
         padding: 24px 15px;
     }
-    
     #formtask h2 {
         font-size: 1.2rem;
     }
